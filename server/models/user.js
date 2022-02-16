@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-import sleepDataSchema from './sleepData';
+import sleepDataSchema from './sleepData.js';
 
 const userSchema = mongoose.Schema({
   name: { type: String, required: true },
